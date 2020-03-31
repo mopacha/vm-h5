@@ -1,10 +1,10 @@
 // https://github.com/michael-ciniawsky/postcss-load-config
-
+// all should npm i
 module.exports = {
   plugins: {
     //"autoprefixer": {},
-    //"postcss-import": {},
-    //"postcss-url": {},
+    "postcss-import": {},
+    "postcss-url": {},
     "postcss-aspect-ratio-mini": {},
     "postcss-write-svg": {
       utf8: false
