@@ -15,13 +15,7 @@ export default {
     return {}
   },
   mounted() {
-    // 验证是否登录过
-    if (sessionStorage.getItem('user')) {
-    } else {
-      this.$router.push({
-        path: '/login'
-      })
-    }
+  
   },
   components: {
     bottomNav

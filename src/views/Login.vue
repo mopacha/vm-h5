@@ -6,16 +6,8 @@
       </div>
       <div class="login-form">
         <md-field>
-          <md-input-item
-            title="手机号"
-            type="text"
-            v-model="form.userName"
-          ></md-input-item>
-          <md-input-item
-            title="密码"
-            type="password"
-            v-model="form.pwd"
-          ></md-input-item>
+          <md-input-item title="用户" type="text" v-model="form.userName"></md-input-item>
+          <md-input-item title="密码" type="password" v-model="form.pwd"></md-input-item>
         </md-field>
       </div>
       <div class="login-btn" @click="toLogin()">
@@ -25,14 +17,12 @@
   </div>
 </template>
 <script>
-import SvgIcon from 'components/SvgIcon'
-
 export default {
   data() {
     return {
       form: {
-        userName: 'cycy',
-        pwd: 'cycy'
+        userName: 'cool',
+        pwd: 'cool'
       }
     }
   },
@@ -40,9 +30,6 @@ export default {
     toLogin() {
       this.$router.push({ path: '/trip' })
     }
-  },
-  components: {
-    SvgIcon
   }
 }
 </script>
@@ -54,14 +41,12 @@ export default {
   &-bg {
     width: 100%;
     height: 100%;
-    background-image: url('../assets/img/bg.jpg');
+    background-image: url('../assets/img/login-bg-mini.jpg');
     background-size: 100% 100%;
     .login-title {
       img {
         width: 250px;
-      
         margin-top: 50px;
-
       }
     }
   }
