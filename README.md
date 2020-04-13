@@ -1,5 +1,8 @@
 # vm-h5
 
+`vm + mand-mobile h5`示例工程，基于 `vue-cli4` 搭建。
+
+
 ## Project setup
 ```
 npm install
@@ -51,5 +54,4 @@ SCSS Refactoring
 ## 问题
 
 使用手淘VW适配方案后造成伪类使用content报错的解决办法
-
 https://www.cnblogs.com/unclefang/p/12097473.html
